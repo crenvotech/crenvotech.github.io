@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <rect width="800" height="600" fill="#ffffff"/>
+  
+  <!-- Central Phone Outline -->
+  <rect x="300" y="70" width="200" height="400" rx="20" fill="#ffffff" stroke="#3f3d56" stroke-width="4"/>
+  <rect x="310" y="90" width="180" height="350" rx="10" fill="#ffffff" stroke="#3f3d56" stroke-width="2"/>
+  
+  <!-- App Screens -->
+  <rect x="320" y="100" width="160" height="80" rx="5" fill="#4285f4"/>
+  <rect x="320" y="190" width="75" height="75" rx="5" fill="#34a853"/>
+  <rect x="405" y="190" width="75" height="75" rx="5" fill="#fbbc05"/>
+  <rect x="320" y="275" width="160" height="50" rx="5" fill="#ea4335"/>
+  
+  <!-- Floating Elements -->
+  <circle cx="150" cy="170" r="60" fill="#4285f4" opacity="0.2"/>
+  <rect x="120" y="160" width="60" height="60" rx="10" fill="#4285f4" opacity="0.4"/>
+  <polygon points="150,110 180,160 120,160" fill="#4285f4" opacity="0.6"/>
+  
+  <circle cx="650" cy="430" r="60" fill="#34a853" opacity="0.2"/>
+  <rect x="620" y="420" width="60" height="60" rx="10" fill="#34a853" opacity="0.4"/>
+  <polygon points="650,370 680,420 620,420" fill="#34a853" opacity="0.6"/>
+  
+  <!-- Connecting Lines -->
+  <path d="M210,170 Q250,170 290,120" fill="none" stroke="#3f3d56" stroke-width="2" stroke-dasharray="5,5"/>
+  <path d="M590,430 Q550,430 510,480" fill="none" stroke="#3f3d56" stroke-width="2" stroke-dasharray="5,5"/>
+  
+  <!-- Code Elements -->
+  <rect x="50" y="320" width="200" height="150" rx="10" fill="#ffffff" stroke="#3f3d56" stroke-width="2"/>
+  <text x="60" y="340" font-family="monospace" font-size="12" fill="#3f3d56">
+    <tspan x="60" dy="0">class AppComponent {</tspan>
+    <tspan x="60" dy="20">  constructor() {</tspan>
+    <tspan x="60" dy="20">    this.state = {</tspan>
+    <tspan x="60" dy="20">      isLoading: true</tspan>
+    <tspan x="60" dy="20">    };</tspan>
+    <tspan x="60" dy="20">  }</tspan>
+    <tspan x="60" dy="20">}</tspan>
+  </text>
+  
+  <rect x="550" y="120" width="200" height="150" rx="10" fill="#ffffff" stroke="#3f3d56" stroke-width="2"/>
+  <text x="560" y="140" font-family="monospace" font-size="12" fill="#3f3d56">
+    <tspan x="560" dy="0">&lt;View style={styles.container}&gt;</tspan>
+    <tspan x="560" dy="20">  &lt;Text&gt;Hello, World!&lt;/Text&gt;</tspan>
+    <tspan x="560" dy="20">  &lt;Button</tspan>
+    <tspan x="560" dy="20">    title="Press me"</tspan>
+    <tspan x="560" dy="20">    onPress={() =&gt; {}}</tspan>
+    <tspan x="560" dy="20">  /&gt;</tspan>
+    <tspan x="560" dy="20">&lt;/View&gt;</tspan>
+  </text>
+  
+  <!-- Development Icons -->
+  <circle cx="100" y="530" r="30" fill="#4285f4"/>
+  <text x="100" y="538" font-family="Arial" font-size="24" fill="#ffffff" text-anchor="middle">A</text>
+  
+  <circle cx="180" y="530" r="30" fill="#fbbc05"/>
+  <text x="180" y="538" font-family="Arial" font-size="24" fill="#ffffff" text-anchor="middle">I</text>
+  
+  <circle cx="620" y="530" r="30" fill="#34a853"/>
+  <text x="620" y="538" font-family="Arial" font-size="24" fill="#ffffff" text-anchor="middle">R</text>
+  
+  <circle cx="700" y="530" r="30" fill="#ea4335"/>
+  <text x="700" y="538" font-family="Arial" font-size="24" fill="#ffffff" text-anchor="middle">F</text>
+
+</svg>
