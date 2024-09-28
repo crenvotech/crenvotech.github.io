@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="826.30527" height="603.5" viewBox="0 0 826.30527 603.5">
+  <rect width="100%" height="100%" fill="#ffffff"/>
+  
+  <!-- Abstract representation of a secure system -->
+  <g transform="translate(413.15264, 301.75)">
+    <!-- Outer circle (system boundary) -->
+    <circle r="250" fill="none" stroke="#3f3d56" stroke-width="2" stroke-dasharray="10 5"/>
+    
+    <!-- Inner hexagon (core security) -->
+    <path d="M0,-150 L130,-75 L130,75 L0,150 L-130,75 L-130,-75 Z" 
+          fill="none" stroke="#4285f4" stroke-width="3">
+      <animate attributeName="stroke-dasharray" 
+               values="0,1000;1000,0;0,1000" dur="20s" repeatCount="indefinite"/>
+    </path>
+    
+    <!-- Security layers -->
+    <g stroke="#4285f4" stroke-width="1.5" fill="none">
+      <circle r="200" opacity="0.2"/>
+      <circle r="150" opacity="0.4"/>
+      <circle r="100" opacity="0.6"/>
+      <circle r="50" opacity="0.8"/>
+    </g>
+    
+    <!-- Compliance checkmarks -->
+    <g fill="#4285f4" font-family="Arial, sans-serif" font-size="24">
+      <text x="-200" y="-50" transform="rotate(-45)">✓</text>
+      <text x="200" y="-50" transform="rotate(45)">✓</text>
+      <text x="-200" y="50" transform="rotate(-135)">✓</text>
+      <text x="200" y="50" transform="rotate(135)">✓</text>
+    </g>
+  </g>
+  
+  <!-- Abstract data flow -->
+  <g stroke="#3f3d56" stroke-width="2">
+    <line x1="0" y1="301.75" x2="826.30527" y2="301.75">
+      <animate attributeName="x2" values="0;826.30527;0" dur="10s" repeatCount="indefinite"/>
+    </line>
+    <line x1="413.15264" y1="0" x2="413.15264" y2="603.5">
+      <animate attributeName="y2" values="0;603.5;0" dur="15s" repeatCount="indefinite"/>
+    </line>
+  </g>
+</svg>
